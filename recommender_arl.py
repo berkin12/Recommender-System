@@ -8,7 +8,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
 pd.set_option('display.expand_frame_repr', False)
 
-dataframe = pd.read_excel("C:/Users/Burak/Recommendation_Systems/online_retail_II.xlsx", sheet_name="Year 2010-2011")
+dataframe = pd.read_excel("C:/Users/Berkin/Recommendation_Systems/online_retail_II.xlsx", sheet_name="Year 2010-2011")
 df = dataframe.copy()
 
 def check_df(dataframe):
